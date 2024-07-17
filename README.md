@@ -15,12 +15,6 @@ This Jumpstart Drop was originally written by the following contributors:
 
 - [Thomas Maurer | Principal Program Manager](https://www.linkedin.com/in/thomasmaurer2)
 
-## Prerequisites
-
-- **Operating System:** Windows 11 IoT Enterprise 22H2 Image or later.
-- **Administrative Access:** System with administrative privileges.
-- **Technical Knowledge:** Familiarity with command-line operations and system configuration.
-
 ## Getting Started
 
 The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of two components: the lab environment and the self-guided Arc Jumpstart scenarios. The Arc Jumpstart scenarios are directly hosted on the Arc Jumpstart website and can be used for creating your labs.
