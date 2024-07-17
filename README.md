@@ -111,3 +111,7 @@ Now you can enable the Hyper-V role, which will allow you to create virtual mach
 ```sh
     Install-WindowsFeature -Name Hyper-V -IncludeAllSubFeature -IncludeManagementTools
 ```
+
+## Jumpstart Scenarios
+
+## Resources
