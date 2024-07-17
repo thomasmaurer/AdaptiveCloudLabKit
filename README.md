@@ -114,4 +114,8 @@ Now you can enable the Hyper-V role, which will allow you to create virtual mach
 
 ## Jumpstart Scenarios
 
+With the Azure Adaptive Cloud Lab Kit hardware in place, you're now equipped to dive into a variety of Arc Jumpstart scenarios. This setup enables you to thoroughly evaluate hybrid cloud and edge computing environments. Utilizing services like Azure Arc, Azure Kubernetes Service (AKS), Azure Stack HCI, and Azure IoT, you can explore and test the integration and management capabilities of Azure across different infrastructures, ensuring a seamless and scalable deployment of applications and services.
+
+Check out the following Arc Jumpstart scenarios:
+
 ## Resources
