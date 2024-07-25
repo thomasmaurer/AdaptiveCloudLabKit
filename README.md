@@ -10,6 +10,8 @@ description: >
 
 The Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart allows you to test various kinds of Azure Adaptive Cloud solutions for hybrid cloud and edge computing, using technologies such as Azure Arc, Azure Stack HCI, and Azure IoT. It provides a physical compute unit with a virtualization environment specially designed to work with home labs and edge scenarios. It also provides automated zero-to-hero scenarios for Azure Arc and Azure IoT using the Arc Jumpstart.
 
+![Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart](./artifacts/media/Azure-Adaptive-Cloud-Lab-Kit-x-Arc-Jumpstart.jpg#center)
+
 The lab environment provides you with a virtual lab environment, including a physical Hyper-V server running Windows Server 2025 which allows you to run virtual machines. This allows you to leverage this as a platform to run Arc Jumpstart scenarios to try adaptive cloud solutions for hybrid cloud and edge scenarios. It also includes the possibilities to test Azure services such as:
 
 - Arc-enabled servers
@@ -39,9 +41,7 @@ The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of two components: the
 - Additionally, the lab environment is intended for evaluation purposes only. It is a standalone virtual environment and should not be used or connected to your production environment.
 - The Windows Server 2025 Evaluation version expires 180 days after the lab is provisioned.
 
-### Architecture
-
-Azure Adaptive Cloud Lab Kit Architecture
+![Azure Adaptive Cloud Lab Kit Architecture](./artifacts/media/Azure-Adaptive-Cloud-Lab-Kit-Archiecture.jpg#center)
 
 ## Prerequisites
 
@@ -64,6 +64,19 @@ Note: Also other hardware systems with similar specifications can be used.
 
 Note: The Intel ASUS NUC hardware doesn't provide any drivers for Windows Server operating systems. Therefore, networking drivers need to be added with a workaround.
 
+![Lab Kit hardware](./artifacts/media/Lab-Kit-Hardware-Intel-ASUS-NUC-scaled.jpg#center)
+
+ ### System Requirements
+
+- The lab environment used with this lab guide supports the 64-bit editions of Windows Server 2025 or later. 
+- The Hyper-V Host on which the lab needs to be imported must meet the following minimum specifications:
+- Hyper-V role installed
+- Administrative rights on the device
+- 500 GB of free disk space (1TB recommended)
+- High-throughput disk subsystem
+- 32GB of available memory (64 GB recommended)
+- High-end processor for faster processing (Intel Core i5 or higher)
+
 ### Windows Server 2025 Evaluation version
 
 Download the latest Windows Server 2025 Evaluation version here: Evaluaton Center
@@ -85,6 +98,8 @@ You can follow these basic steps to set up your unofficial Azure Adaptive Cloud 
 ### Build your NUC hardware
 
 If your hardware is not yet built, you will need to set up SSD storage and memory in your Intel ASUS NUC.
+
+![NUC Hardware](./artifacts/media/Intel-NUC-Windows-Server-LAB.jpg#center)
 
 ### Install Windows Server 2025
 
