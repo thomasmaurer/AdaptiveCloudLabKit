@@ -164,10 +164,37 @@ Dismount-DiskImage -ImagePath $ISOFile
 
 If you are using an Intel NUC, Windows Server will not detect the network driver automatically. You will need to download the Windows 11 network driver from the official support site and follow the following guide to install it.
 
-[Install ASUS Intel NUC Windows Server 2025 Network Adapter Driver](https://www.thomasmaurer.ch/2024/07/install-asus-intel-nuc-windows-server-2025-network-adapter-driver/)
+Download the latest Networking Drivers for Windows 11 on the ASUS Intel NUC (Intel Ethernet (LAN) Driver for Windows 11 for Intel NUC 13 Pro Kit / Mini PC) [support site](https://www.asus.com/us/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-13-pro/helpdesk_download?model2Name=ASUS-NUC-13-Pro).
 
 > [!NOTE]
-> As a workaround you can also use a USB to Ethernet adapter.
+> This driver can also be forced to use with Windows Server 2025. Keep in mind it is not recommended to do this with production systems.
+
+![Download ASUS Intel NUC Network Adapter NIC driver](./artifacts/media/Download-ASUS-Intel-NUC-Network-Adapter-NIC-driver-scaled.jpg#center)
+
+Copy the drivers to your ASUS Intel NUC and extract driver zip file and you will see the following files:
+
+![Intel NIC drivers](./artifacts/media/Intel-NIC-Drivers.jpg#center)
+
+Open Device Manager right click on **Ethernet Controller** and select **Update Driver**.
+
+![Update Network Driver](./artifacts/media/Update-Network-Driver.jpg#center)
+
+Select **“Browe on my computer for driver software”**, and select **“Let me pick from a list of available drivers on my computer”**, now you can select **Network Adapter**.
+
+![Let me pick from a list of available drivers on my computer](./artifacts/media/Let-me-pick-from-a-list-of-available-drivers-on-my-computer.jpg#center)
+
+Click on **“Have Disk…”** enter the following path where you extracted the drivers to.
+
+![Driver Location](./artifacts/media/Driver-Location.jpg#center)
+
+Now select Intel Ethernet Connection I219-LM
+
+![Intel Ethernet Controller I225-LM](./artifacts/media/Intel-Ethernet-Controller-I225-LM.jpg#center)
+
+Now you are done and you will be able to use the network adapter of the Asus Intel NUC with Windows Server 2025.
+
+> [!NOTE]
+> As a workaround you can also use a USB to Ethernet adapter. [Original Guide: Install ASUS Intel NUC Windows Server 2025 Network Adapter Driver](https://www.thomasmaurer.ch/2024/07/install-asus-intel-nuc-windows-server-2025-network-adapter-driver/)
 
 ### Set up Hyper-V
 
