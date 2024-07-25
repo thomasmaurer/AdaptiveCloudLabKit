@@ -18,7 +18,7 @@ The lab environment provides you with a virtual lab environment, including a phy
 - and more
 
 > [!NOTE]
-> The unofficial Adaptive Cloud Lab Kit is <ins>not</ins> supported by Microsoft and only has community support. This project is not sponsored by any third-party.
+> The unofficial Adaptive Cloud Lab Kit is **not** supported by Microsoft and only has community support. This project is not sponsored by any third-party.
 
 ## Contributors
 
