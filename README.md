@@ -58,9 +58,9 @@ The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of, and is built by us
 
 Note: Also other hardware systems with similar specifications can be used.
 
-- 1x Intel NUCPAHIi5 (Intel Core i5-1135G7)
-- 1x Samsung 970 EVO Plus (1000 GB, M.2)
-- 2x Kingston ValueRAM (32GB, DDR4-2666, SO-DIMM 260 pin)
+- 1x ASUS NUC 13 Pro Kit NUC13ANHi5 (Intel Core i5-1340P)
+- 1x WD Black SN850X 1000 GB, M.2 2280
+- 2x Corsair Vengeance 32GB, 3200 MHz, DDR4-RAM, SO-DIMM
 
 Note: The Intel ASUS NUC hardware doesn't provide any drivers for Windows Server operating systems. Therefore, networking drivers need to be added with a workaround.
 
@@ -79,13 +79,13 @@ Note: The Intel ASUS NUC hardware doesn't provide any drivers for Windows Server
 
 ### Windows Server 2025 Evaluation version
 
-Download the latest Windows Server 2025 Evaluation version here: Evaluaton Center
+Download the latest Windows Server 2025 Evaluation version here: [Evaluaton Center](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025)
 
 ### Azure Subscription
 
 To use Azure services, you will need to use an Azure subscription. If you don't have an Azure subscription check out the following links:
 
-Azure free account
+[Azure free account](https://azure.microsoft.com/free/)
 
 ### Internet Connectivity
 
@@ -121,7 +121,7 @@ As a workaround you can also use a USB to Ethernet adapter.
 
 After you have successfully installed the network driver for your machine, make sure you installed the latest Microsoft Updates.
 
-Now you can enable the Hyper-V role, which will allow you to create virtual machines running on your Azure Adaptive Cloud Lab Kit. You can use the following PowerShell command to install the Hyper-V role. After running this command you will need to restart your Lab Kit.
+Now you can enable the Hyper-V role, which will allow you to create virtual machines running on your Azure Adaptive Cloud Lab Kit. You can use the following PowerShell command to [install the Hyper-V role](https://www.thomasmaurer.ch/2017/08/install-hyper-v-on-windows-server-using-powershell/). After running this command you will need to restart your Lab Kit.
 
 ```sh
     Install-WindowsFeature -Name Hyper-V -IncludeAllSubFeature -IncludeManagementTools
