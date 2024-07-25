@@ -134,3 +134,19 @@ With the Azure Adaptive Cloud Lab Kit hardware in place, you're now equipped to 
 Check out the following Arc Jumpstart scenarios:
 
 ## Resources
+
+You can find more information on related topics for the Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart with the following links:
+
+To learn about Microsoft's Azure Adaptive Cloud approach, [get started with our homepage](https://azure.microsoft.com/solutions/hybrid-cloud-app/).
+
+### Azure documentation
+
+- [Azure Arc Documentations](https://learn.microsoft.com/azure/azure-arc/)
+- [Azure Stack HCI Documentations](https://learn.microsoft.com/azure-stack/hci/)
+- [Azure Kubernetes Service (AKS) enabled by Azure Arc Documentations](https://learn.microsoft.com/azure/aks/hybrid/)
+- [Azure IoT Documentations](https://learn.microsoft.com/azure/iot/)
+
+### Addtional assets
+
+- [Arc Jumpstart](https://aka.ms/AzureArcJumpstart)
+- [Azure Arc Landing Zone Accelerators](https://aka.ms/ArcLZAcceleratorReady)
