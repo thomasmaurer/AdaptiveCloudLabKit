@@ -1,12 +1,4 @@
----
-type: docs
-title: "Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart"
-linkTitle: "Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart"
-weight: 1
-description: >
----
-
-## Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart
+## Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart Overview
 
 The Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart allows you to test various kinds of Azure Adaptive Cloud solutions for hybrid cloud and edge computing, using technologies such as Azure Arc, Azure Stack HCI, and Azure IoT. It provides a physical compute unit with a virtualization environment specially designed to work with home labs and edge scenarios. It also provides automated zero-to-hero scenarios for Azure Arc and Azure IoT using the Arc Jumpstart.
 
@@ -56,13 +48,17 @@ To get started with the Azure Adaptive Cloud Lab Kit you need the following:
 
 The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of, and is built by using an Intel NUC, NUC stands for Next Unit of Computing and is a line of small-form-factor barebone computer kits designed by Intel. The advantage of this machine is the small formfactor, low power consumption and almost no fan noise.
 
-Note: Also other hardware systems with similar specifications can be used.
+> [!NOTE]
+> Also other hardware systems with similar specifications can be used.
 
-- 1x ASUS NUC 13 Pro Kit NUC13ANHi5 (Intel Core i5-1340P)
-- 1x WD Black SN850X 1000 GB, M.2 2280
-- 2x Corsair Vengeance 32GB, 3200 MHz, DDR4-RAM, SO-DIMM
+| Amount| Hardware | 
+| ------- | -- | 
+| 1x | ASUS NUC 13 Pro Kit NUC13ANHi5 (Intel Core i5-1340P) | 
+| 1x | WD Black SN850X 1000 GB, M.2 2280 | 
+| 2x | Corsair Vengeance 32GB, 3200 MHz, DDR4-RAM, SO-DIMM |
 
-Note: The Intel ASUS NUC hardware doesn't provide any drivers for Windows Server operating systems. Therefore, networking drivers need to be added with a workaround.
+> [!NOTE]
+> The Intel ASUS NUC hardware doesn't provide any drivers for Windows Server operating systems. Therefore, networking drivers need to be added with a workaround.
 
 ![Lab Kit hardware](./artifacts/media/Lab-Kit-Hardware-Intel-ASUS-NUC-scaled.jpg#center)
 
@@ -117,7 +113,7 @@ Open a PowerShell using the Run as Administrator option. You will need to change
 
 REMINDER: The following commands will wipe the USB Drive completely. Backup everything before you run through the PowerShell.
 
-```sh
+```powershell
 # Define Path to the Windows Server 2025 ISO
 $ISOFile = "C:\Temp\WindowsServer2025.iso"
 
@@ -173,7 +169,7 @@ After you have successfully installed the network driver for your machine, make 
 
 Now you can enable the Hyper-V role, which will allow you to create virtual machines running on your Azure Adaptive Cloud Lab Kit. You can use the following PowerShell command to [install the Hyper-V role](https://www.thomasmaurer.ch/2017/08/install-hyper-v-on-windows-server-using-powershell/). After running this command you will need to restart your Lab Kit.
 
-```sh
+```powershell
     Install-WindowsFeature -Name Hyper-V -IncludeAllSubFeature -IncludeManagementTools
 ```
 
