@@ -44,6 +44,7 @@ To get started with the Azure Adaptive Cloud Lab Kit you need the following:
 
 - Lab Kit Hardware (Intel ASUS NUC or similar)
 - Windows Server 2025 Evaluation version
+- USB flash drive
 - Azure Subscription
 - Internet Connectivity
 
