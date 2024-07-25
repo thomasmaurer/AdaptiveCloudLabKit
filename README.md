@@ -183,6 +183,14 @@ With the Azure Adaptive Cloud Lab Kit hardware in place, you're now equipped to 
 
 Check out the following Arc Jumpstart scenarios:
 
+- [Arc-enabled servers](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_servers)
+- [Arc-enabled Kubernetes](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_k8s)
+- [Arc-enabled SQL Server](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_sqlsrv)
+- [Arc, Edge, and IoT Operations](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_edge_iot_ops)
+- [Arc and Azure Lighthouse](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_lighthouse)
+- [Arc-enabled data services](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_data)
+- and more on [ArcJumpstart.com](https://arcjumpstart.com/)
+
 ## Resources
 
 You can find more information on related topics for the Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart with the following links:
