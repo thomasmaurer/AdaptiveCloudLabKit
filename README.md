@@ -112,7 +112,7 @@ To create the USB drive to install Windows Server 2025 on a UEFI (GPT system, yo
 - Copy all files from the ISO to the USB drive
 - This is it, and here is how you do it. First, plug in your USB drive to your computer.
 
-Open a PowerShell using the Run as Administrator option. You will need to change the path of the Windows Server 2025 ISO, and you will need to replace the disk number in the script before running the third command and make sure C:\Temp exists. From previous experiences with users, run the script line by line.
+Open a PowerShell using the Run as Administrator option. You will need to change the path of the Windows Server 2025 ISO, and you will need to replace the disk number in the script before running the third command and make sure *C:\Temp* exists. From previous experiences with users, run the script line by line.
 
 > [!NOTE]
 > The following commands will wipe the USB Drive completely. Backup everything before you run through the PowerShell.
