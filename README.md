@@ -92,7 +92,7 @@ Please use a broad bandwidth to download this content to enhance your downloadin
 
 ## Installation Guide
 
-You can follow these basic steps to set up your unofficial Azure Adaptive Cloud Lab Kit feat. Arc Jumpstart with the following steps.
+You can follow these basic steps to set up your Azure Adaptive Cloud Lab Kit feat. Arc Jumpstart with the following steps.
 
 ### Build your NUC hardware
 
@@ -194,7 +194,7 @@ Check out the following Arc Jumpstart scenarios:
 
 ## Resources
 
-You can find more information on related topics for the Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart with the following links:
+You can find more information on related topics for the Azure Adaptive Cloud Lab Kit x Arc Jumpstart with the following links:
 
 To learn about Microsoft's Azure Adaptive Cloud approach, [get started with our homepage](https://azure.microsoft.com/solutions/hybrid-cloud-app/).
 
