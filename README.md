@@ -102,7 +102,7 @@ If your hardware is not yet built, you will need to set up SSD storage and memor
 
 ### Install Windows Server 2025
 
-Install Windows Server 2025 on your Intel NUC. You can create a bootable USB drive to install Windows Server 2025 using the following [guide](https://www.thomasmaurer.ch/2024/07/create-an-usb-drive-for-windows-server-2025-installation/).
+Install Windows Server 2025 on your Intel NUC. You can create a bootable USB drive to install Windows Server 2025 using the following guide.
 
 To create the USB drive to install Windows Server 2025 on a UEFI (GPT system, you do the following steps:
 
