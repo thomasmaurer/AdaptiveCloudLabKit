@@ -17,6 +17,9 @@ The lab environment provides you with a virtual lab environment, including a phy
 - AKS enable by Azure Arc, AKS Edge Essentials
 - and more
 
+> [!NOTE]
+> This project is <ins>not</ins> supported by Microsoft and only has community support
+
 ## Contributors
 
 This Jumpstart Drop was originally written by the following contributors:
@@ -111,7 +114,8 @@ To create the USB drive to install Windows Server 2025 on a UEFI (GPT system, yo
 
 Open a PowerShell using the Run as Administrator option. You will need to change the path of the Windows Server 2025 ISO, and you will need to replace the disk number in the script before running the third command and make sure C:\Temp exists. From previous experiences with users, run the script line by line.
 
-REMINDER: The following commands will wipe the USB Drive completely. Backup everything before you run through the PowerShell.
+> [!NOTE]
+> The following commands will wipe the USB Drive completely. Backup everything before you run through the PowerShell.
 
 ```powershell
 # Define Path to the Windows Server 2025 ISO
@@ -161,7 +165,8 @@ If you are using an Intel NUC, Windows Server will not detect the network driver
 
 [Install ASUS Intel NUC Windows Server 2025 Network Adapter Driver](https://www.thomasmaurer.ch/2024/07/install-asus-intel-nuc-windows-server-2025-network-adapter-driver/)
 
-As a workaround you can also use a USB to Ethernet adapter.
+> [!NOTE]
+> As a workaround you can also use a USB to Ethernet adapter.
 
 ### Set up Hyper-V
 
