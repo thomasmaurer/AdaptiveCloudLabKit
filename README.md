@@ -103,17 +103,67 @@ If your hardware is not yet built, you will need to set up SSD storage and memor
 
 ### Install Windows Server 2025
 
-Install Windows Server 2025 on your Intel NUC. You can create a bootable USB drive to install Windows Server 2025 using the following guide.
+Install Windows Server 2025 on your Intel NUC. You can create a bootable USB drive to install Windows Server 2025 using the following [guide](https://www.thomasmaurer.ch/2024/07/create-an-usb-drive-for-windows-server-2025-installation/).
 
-https://www.thomasmaurer.ch/2024/07/create-an-usb-drive-for-windows-server-2025-installation/
-Create an USB Drive for Windows Server 2025 Installation
+To create the USB drive to install Windows Server 2025 on a UEFI (GPT system, you do the following steps:
+
+- The at least an 8GB USB drive has to be formatted in FAT32
+- The USB needs to be GPT and not MBR
+- You will need to split the wim file using dism since it is larger than 4GB
+- Copy all files from the ISO to the USB drive
+- This is it, and here is how you do it. First, plug in your USB drive to your computer.
+
+Open a PowerShell using the Run as Administrator option. You will need to change the path of the Windows Server 2025 ISO, and you will need to replace the disk number in the script before running the third command and make sure C:\Temp exists. From previous experiences with users, run the script line by line.
+
+REMINDER: The following commands will wipe the USB Drive completely. Backup everything before you run through the PowerShell.
+
+```sh
+# Define Path to the Windows Server 2025 ISO
+$ISOFile = "C:\Temp\WindowsServer2025.iso"
+
+# Create temp diectroy for new image
+$newImageDir = New-Item -Path 'C:\Temp\newimage' -ItemType Directory
+
+# Mount iso
+$ISOMounted = Mount-DiskImage -ImagePath $ISOFile -StorageType ISO -PassThru
+
+# Driver letter
+$ISODriveLetter = ($ISOMounted | Get-Volume).DriveLetter
+
+# Copy Files to temporary new image folder 
+Copy-Item -Path ($ISODriveLetter +":\*") -Destination C:\Temp\newimage -Recurse
+
+# Split and copy install.wim (because of the filesize)
+dism /Split-Image /ImageFile:C:\Temp\newimage\sources\install.wim /SWMFile:C:\Temp\newimage\sources\install.swm /FileSize:4096
+
+ 
+# Get the USB Drive you want to use, copy the disk number
+Get-Disk | Where BusType -eq "USB"
+ 
+# Get the right USB Drive (You will need to change the number)
+$USBDrive = Get-Disk | Where Number -eq 2
+ 
+# Replace the Friendly Name to clean the USB Drive (THIS WILL REMOVE EVERYTHING)
+$USBDrive | Clear-Disk -RemoveData -Confirm:$true -PassThru
+ 
+# Convert Disk to GPT
+$USBDrive | Set-Disk -PartitionStyle GPT
+ 
+# Create partition primary and format to FAT32
+$Volume = $USBDrive | New-Partition -Size 8GB -AssignDriveLetter | Format-Volume -FileSystem FAT32 -NewFileSystemLabel WS2025
+ 
+# Copy Files to USB (Ignore install.wim)
+Copy-Item -Path C:\Temp\newimage\* -Destination ($Volume.DriveLetter + ":\") -Recurse -Exclude install.wim
+
+# Dismount ISO
+Dismount-DiskImage -ImagePath $ISOFile
+```
 
 ### Install Network Driver
 
 If you are using an Intel NUC, Windows Server will not detect the network driver automatically. You will need to download the Windows 11 network driver from the official support site and follow the following guide to install it.
 
-https://www.thomasmaurer.ch/2024/07/install-asus-intel-nuc-windows-server-2025-network-adapter-driver/
-Install ASUS Intel NUC Windows Server 2025 Network Adapter Driver
+[Install ASUS Intel NUC Windows Server 2025 Network Adapter Driver](https://www.thomasmaurer.ch/2024/07/install-asus-intel-nuc-windows-server-2025-network-adapter-driver/)
 
 As a workaround you can also use a USB to Ethernet adapter.
 
