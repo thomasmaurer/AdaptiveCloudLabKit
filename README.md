@@ -248,6 +248,8 @@ Check out the following Arc Jumpstart scenarios:
 
 You can find more information on related topics for the Azure Adaptive Cloud Lab Kit x Arc Jumpstart with the following links:
 
+- [Contribute to the Azure Adaptive Cloud Lab Kit](https://github.com/thomasmaurer/AdaptiveCloudLabKit/)
+
 To learn about Microsoft's Azure Adaptive Cloud approach, [get started with our homepage](https://azure.microsoft.com/solutions/hybrid-cloud-app/).
 
 ### Azure documentation
