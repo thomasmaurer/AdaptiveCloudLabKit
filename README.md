@@ -241,7 +241,7 @@ Check out the following Arc Jumpstart scenarios:
 - [Arc-enabled servers](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_servers)
 - [Arc-enabled Kubernetes](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_k8s)
 - [Arc-enabled SQL Server](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_sqlsrv)
-- [Arc, Edge, and IoT Operations](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_edge_iot_ops)
+- [Arc, Edge, and Azure IoT Operations](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_edge_iot_ops)
 - [Arc and Azure Lighthouse](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_lighthouse)
 - [Arc-enabled data services](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_data)
 - and more on [ArcJumpstart.com](https://arcjumpstart.com/)
