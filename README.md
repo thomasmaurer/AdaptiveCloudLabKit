@@ -26,6 +26,8 @@ This Jumpstart Drop was originally written by the following contributors:
 
 - [Thomas Maurer | Principal Program Manager](https://www.linkedin.com/in/thomasmaurer2)
 
+- [Contribute to the Azure Adaptive Cloud Lab Kit](https://github.com/thomasmaurer/AdaptiveCloudLabKit/)
+
 ## Getting Started
 
 The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of two components: the lab environment and the self-guided Arc Jumpstart scenarios. The Arc Jumpstart scenarios are directly hosted on the Arc Jumpstart website and can be used for creating your labs.
