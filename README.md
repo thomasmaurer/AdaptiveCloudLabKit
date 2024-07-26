@@ -12,7 +12,7 @@ The lab environment provides you with a virtual lab environment, including a phy
 - Arc-enabled data services
 - Arc-enabled app services
 - Arc-enabled machine learning
-- Arc, Edge, and IoT Operations
+- Arc, Edge, and Azure IoT Operations
 - Arc and Azure Lighthouse
 - AKS enable by Azure Arc, AKS Edge Essentials
 - and more
@@ -37,10 +37,11 @@ The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of two components: the
 - This lab kit contains evaluation software that is designed for IT professionals interested in evaluating Windows Server and Azure solutions and tools on behalf of their organization. We do not recommend that you install this evaluation if you are not an IT professional or are not professionally managing corporate networks or devices.
 - Additionally, the lab environment is intended for evaluation purposes only. It is a standalone virtual environment and should not be used or connected to your production environment.
 - The Windows Server 2025 Evaluation version expires 180 days after the lab is provisioned.
-- This project is a community project and is not sponsored by any third-party.
-- The unofficial Adaptive Cloud Lab Kit is not supported by Microsoft and only has community support.
+- This project is a community project and is **not** sponsored by any third-party.
+- The unofficial Adaptive Cloud Lab Kit is **not** supported by Microsoft and only has community support.
+- You are welcome to [support and contirbute to the project](https://github.com/thomasmaurer/AdaptiveCloudLabKit/).
 - Windows Server 2025 Evaluation licenses should only be used for evaluation porpuses.
--  By enabling additional Azure services, additional costs may apply.
+- By enabling additional Azure services, additional costs may apply.
 
 ## Prerequisites
 
