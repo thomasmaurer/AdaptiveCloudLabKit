@@ -223,7 +223,7 @@ Follow the wizard to onboard your Adaptive Cloud Lab kit with Azure Arc. If you 
 
 ![Installing Azure Arc on Winodws Server](./artifacts/media/Installing-Azure-Arc-on-Winodws-Server.jpg#center)
 
-Your Adpative Cloud Lab Kit is now ready to run virtual machines, kubernetes clusters and other workloads and connect them using Azure Arc and deploy Arc Jumpstart scenarios.
+Your Adaptive Cloud Lab Kit is now ready to run virtual machines, Kubernetes clusters and other workloads and connect them using Azure Arc and deploy Arc Jumpstart scenarios.
 
 ## Jumpstart Scenarios
 
