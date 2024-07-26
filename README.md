@@ -44,6 +44,7 @@ The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of two components: the
 - You are welcome to [support and contirbute to the project](https://github.com/thomasmaurer/AdaptiveCloudLabKit/).
 - Windows Server 2025 Evaluation licenses should only be used for evaluation porpuses.
 - By enabling additional Azure services, additional costs may apply.
+- Device is connected using Ethernet
 
 ## Prerequisites
 
@@ -53,7 +54,7 @@ To get started with the Azure Adaptive Cloud Lab Kit you need the following:
 - Windows Server 2025 Evaluation version
 - USB flash drive
 - Azure Subscription
-- Internet Connectivity
+- Internet Connectivity / Wired Netowrk connection
 
 ### Lab Kit Hardware
 
