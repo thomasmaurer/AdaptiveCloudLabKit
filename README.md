@@ -30,13 +30,17 @@ This Jumpstart Drop was originally written by the following contributors:
 
 The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of two components: the lab environment and the self-guided Arc Jumpstart scenarios. The Arc Jumpstart scenarios are directly hosted on the Arc Jumpstart website and can be used for creating your labs.
 
-### Things to Know 
+![Azure Adaptive Cloud Lab Kit Architecture](./artifacts/media/Azure-Adaptive-Cloud-Lab-Kit-Archiecture.jpg#center)
+
+### Important things to know 
 
 - This lab kit contains evaluation software that is designed for IT professionals interested in evaluating Windows Server and Azure solutions and tools on behalf of their organization. We do not recommend that you install this evaluation if you are not an IT professional or are not professionally managing corporate networks or devices.
 - Additionally, the lab environment is intended for evaluation purposes only. It is a standalone virtual environment and should not be used or connected to your production environment.
 - The Windows Server 2025 Evaluation version expires 180 days after the lab is provisioned.
-
-![Azure Adaptive Cloud Lab Kit Architecture](./artifacts/media/Azure-Adaptive-Cloud-Lab-Kit-Archiecture.jpg#center)
+- This project is a community project and is not sponsored by any third-party.
+- The unofficial Adaptive Cloud Lab Kit is not supported by Microsoft and only has community support.
+- Windows Server 2025 Evaluation licenses should only be used for evaluation porpuses.
+-  By enabling additional Azure services, additional costs may apply.
 
 ## Prerequisites
 
