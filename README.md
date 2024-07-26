@@ -84,7 +84,9 @@ The Azure Adaptive Cloud Lab Kit x Arc Jumpstart consists of, and is built by us
 
 ### Windows Server 2025 Evaluation version
 
-Download the latest Windows Server 2025 Evaluation version here: [Evaluaton Center](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025)
+Download the latest Windows Server 2025 Evaluation version here: 
+
+[Evaluaton Center](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025)
 
 ### Azure Subscription
 
