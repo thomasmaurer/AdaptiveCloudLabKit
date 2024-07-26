@@ -196,6 +196,14 @@ Now you are done and you will be able to use the network adapter of the Asus Int
 > [!NOTE]
 > As a workaround you can also use a USB to Ethernet adapter. [Original Guide: Install ASUS Intel NUC Windows Server 2025 Network Adapter Driver](https://www.thomasmaurer.ch/2024/07/install-asus-intel-nuc-windows-server-2025-network-adapter-driver/)
 
+### Set name of your Azure Adaptive Cloud LabKit
+
+Run the following command to change the server name of your Adaptive Cloud Lab Kit:
+
+```powershell
+Rename-Computer -NewName "AdaptiveCloudLabKit01"
+```
+
 ### Set up Hyper-V
 
 After you have successfully installed the network driver for your machine, make sure you installed the latest Microsoft Updates.
@@ -203,8 +211,19 @@ After you have successfully installed the network driver for your machine, make 
 Now you can enable the Hyper-V role, which will allow you to create virtual machines running on your Azure Adaptive Cloud Lab Kit. You can use the following PowerShell command to [install the Hyper-V role](https://www.thomasmaurer.ch/2017/08/install-hyper-v-on-windows-server-using-powershell/). After running this command you will need to restart your Lab Kit.
 
 ```powershell
-    Install-WindowsFeature -Name Hyper-V -IncludeAllSubFeature -IncludeManagementTools
+Install-WindowsFeature -Name Hyper-V -IncludeAllSubFeature -IncludeManagementTools
 ```
+### Onboard Azure Adaptive Cloud Lab Kit to Azure using Azure Arc
+
+You can start the Azure Arc Setup wizard in different ways on a Windows Server machine. One way is to click on the system tray icon at the bottom of the screen. This icon appears when the Azure Arc Setup feature is turned on, which is the default setting. Another way is to open the pop-up window in the Server Manager. A third way is to go to the Windows Server Start menu and select the wizard from there.
+
+![Get Started with Azure Arc Setup on Windows Server](./artifacts/media/Get-Started-with-Azure-Arc-Azure-Arc-Setup-on-Windows-Server.jpg#center)
+
+Follow the wizard to onboard your Adaptive Cloud Lab kit with Azure Arc. If you need more information check out the following [page](https://www.thomasmaurer.ch/2023/12/azure-arc-setup-on-windows-server/).
+
+![Installing Azure Arc on Winodws Server](./artifacts/media/Installing-Azure-Arc-on-Winodws-Server.jpg#center)
+
+Your Adpative Cloud Lab Kit is now ready to run virtual machines, kubernetes clusters and other workloads and connect them using Azure Arc and deploy Arc Jumpstart scenarios.
 
 ## Jumpstart Scenarios
 
