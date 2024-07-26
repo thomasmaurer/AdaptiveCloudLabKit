@@ -1,6 +1,6 @@
 ## Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart Overview
 
-The Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart allows you to test various kinds of Azure Adaptive Cloud solutions for hybrid cloud and edge computing, using technologies such as Azure Arc, Azure Stack HCI, and Azure IoT. It provides a physical compute unit with a virtualization environment specially designed to work with home labs and edge scenarios. It also provides automated zero-to-hero scenarios for Azure Arc and Azure IoT using the Arc Jumpstart.
+The Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart allows you to test various kinds of Azure Adaptive Cloud solutions for hybrid cloud and edge computing, using technologies such as Azure Arc, Azure Stack HCI, and Azure IoT. It provides a physical NUC compute unit running Windows Server 2025 with a virtualization environment specially designed to work with home labs and edge scenarios. It also provides automated zero-to-hero scenarios for Azure Arc and Azure IoT using the Arc Jumpstart.
 
 ![Unofficial Azure Adaptive Cloud Lab Kit x Arc Jumpstart](./artifacts/media/Azure-Adaptive-Cloud-Lab-Kit-x-Arc-Jumpstart.jpg#center)
 
