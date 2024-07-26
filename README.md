@@ -54,7 +54,7 @@ To get started with the Azure Adaptive Cloud Lab Kit you need the following:
 - Windows Server 2025 Evaluation version
 - USB flash drive
 - Azure Subscription
-- Internet Connectivity / Wired Netowrk connection
+- Internet Connectivity / Wired Network connection
 
 ### Lab Kit Hardware
 
