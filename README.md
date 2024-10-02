@@ -197,7 +197,7 @@ Click on **“Have Disk…”** enter the following path where you extracted the
 
 ![Driver Location](./artifacts/media/Driver-Location.jpg#center)
 
-Now select Intel Ethernet Connection I219-LM
+Now select Intel Ethernet Connection I225-LM
 
 ![Intel Ethernet Controller I225-LM](./artifacts/media/Intel-Ethernet-Controller-I225-LM.jpg#center)
 
